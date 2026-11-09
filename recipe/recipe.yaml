@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: nmaipy
-  version: "5.5.0"
+  version: "5.5.1"
   python_min: "3.12"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/n/nmaipy/nmaipy-${{ version }}.tar.gz
-  sha256: 5c1b46c08e99992a513c1ef331cf871320184c8c7449801ef58de8e16eb737dd
+  sha256: 736385f09ee4f4bf06fac3864a9b034ab283cfde7576c9850e587e42232922bc
 
 build:
   noarch: python
